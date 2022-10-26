@@ -10,6 +10,6 @@ app.use(bodyParser.json());
 
 app.post("/products", monogoooooose.createProduct);
 
-// app.get('/products', mongo.getProducts);
+app.get('/products', monogoooooose.getProducts);
 
 app.listen(3000);
